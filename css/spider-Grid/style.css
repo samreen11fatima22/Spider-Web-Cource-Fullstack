@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    /* margin: auto; */
+}
+.container{
+    max-width: 1320px;
+    height: 600px;
+    /* vertically align krne k lia hieght dani hogi */
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    /* isko 200px 200px 200px 
+    1fr 2fr 1 fr m b llikh skte hen
+    or repeat(4, 1fr) m b , */
+    /* grid-template-rows: repeat(5,200px); */
+    gap: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    /* justify content width k according */
+    align-content: center;
+    /* align content hieght k according */
+    /* justify-items: center; */
+    /* align-items: end; */
+    grid-template-rows: repeat(4, 120px);
+    
+   
+}
+.items{
+    /* width: 100%; */
+/* height: 120px; */
+    border: 1px solid brown;
+    padding: 20px;
+    /* background-color: rgb(181, 181, 251); */
+    
+}
+/* ye column k lia  */
+.box1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-column: 1/4; */
+    /* childe m line 1 or line 3 tak box 1 space la ga */
+    /* grid-column: span 2; */
+    /* grid colom span jo ha h wo lines ko ni dkhta bas 2 colom ki jga la le ga  */
+  /* grid-row: 1 / 4;
+   */
+   grid-area: 1/1/3/3;
+   background-color: blue;
+   justify-self: center;
+   align-self: center;
+
+}

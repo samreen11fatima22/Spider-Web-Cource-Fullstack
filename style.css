@@ -1,0 +1,15 @@
+p{
+    width: 230px;
+    float: right;
+    background-color: rgb(181, 171, 171);
+    margin: 5px;
+    padding: 5px;
+    overflow: auto;
+    border: 5px;
+    border-style: groove;
+
+    
+}
+.float{
+float: left;
+}

@@ -1,0 +1,41 @@
+p{
+    color: green;
+}
+ .main p{
+    font-size: 40px;
+    color: red;
+ }
+ .main p:nth-child(3){
+    color: pink;
+ }
+ .main p:first-child{
+    color: blue;
+ }
+ .main p:last-child{
+    color: paleturquoise;
+ }
+ /* another concept of pseudo class */
+ .main .mainInner{
+    width: 1170px;
+    background-color: aqua;
+    margin: auto;
+ }
+ .hover{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    color: blue;
+ }
+.hover:hover{
+     width: 1100px;
+    height:  800px;
+    background-color: rgb(29, 211, 50);
+    color: rgb(251, 250, 249);
+    transition: 2s;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900px;
+    font-style: italic;
+    font-size: 40px;
+}
