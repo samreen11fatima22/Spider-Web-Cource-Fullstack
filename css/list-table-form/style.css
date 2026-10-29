@@ -1,0 +1,10 @@
+ul{
+    list-style-type: circle;
+}
+#li1{
+    /* list-style-image: url(../images/star\ list.webp); */
+    width: 1px;
+    height: 1px;
+    list-style: outside square;
+
+}

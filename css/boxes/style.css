@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.child {
+  background-color: orange;
+  width: 70%;
+  height: 100%;
+}
+.aside {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  background-color: antiquewhite;
+}
+/* % hmesha apne parent ko dkhta h */
+/* minwidth maxwidth  */
+.slider {
+  max-width: 100%;
+  min-width: 400px;
+  margin: auto;
+}
+.slider > img {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+}
+.content {
+  /* width: 500px; */
+  background-color: rgba(255, 166, 0, 0.932);
+  /* height is auto by defualt */
+  max-height: 300px;
+  min-height: 100px;
+  overflow: hidden;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 30px 20px;
+  display: inline-block;
+  
+border-width: 20px;
+border-style: double;
+border-color: gold;
+color: antiquewhite;
+text-align: justify;
+margin: 1px auto;
+
+  /* overflow: hidden; */
+  /* overflow:visible; */
+  /* overflow=hidden
+    overflow x ,y */
+  /* agr mra content max hieght s bahir ajye to osko property di overflow scroll ki */
+  /* for example facebook post word limitt of 200 words only  */
+  /* Border
+  top right bottom left */
+}
